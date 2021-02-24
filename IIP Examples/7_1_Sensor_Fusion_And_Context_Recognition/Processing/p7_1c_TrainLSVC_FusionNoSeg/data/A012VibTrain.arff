@@ -1,0 +1,36 @@
+@relation A012VibTrain
+@attribute f_0 numeric
+@attribute f_1 numeric
+@attribute f_2 numeric
+@attribute f_3 numeric
+@attribute f_4 numeric
+@attribute f_5 numeric
+@attribute f_6 numeric
+@attribute f_7 numeric
+@attribute f_8 numeric
+@attribute f_9 numeric
+@attribute f_10 numeric
+@attribute f_11 numeric
+@attribute f_12 numeric
+@attribute f_13 numeric
+@attribute f_14 numeric
+@attribute f_15 numeric
+@attribute f_16 numeric
+@attribute f_17 numeric
+@attribute f_18 numeric
+@attribute f_19 numeric
+@attribute f_20 numeric
+@attribute f_21 numeric
+@attribute f_22 numeric
+@attribute f_23 numeric
+@attribute f_24 numeric
+@attribute f_25 numeric
+@attribute f_26 numeric
+@attribute f_27 numeric
+@attribute f_28 numeric
+@attribute f_29 numeric
+@attribute f_30 numeric
+@attribute s numeric
+@attribute l numeric
+@attribute label {}
+@data
