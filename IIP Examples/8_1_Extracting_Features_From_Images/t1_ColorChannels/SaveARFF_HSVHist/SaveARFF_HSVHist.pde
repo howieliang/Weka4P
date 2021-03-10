@@ -50,7 +50,7 @@ void setDataType() {
 
 void setup() {
   size(500,500);
-  video = new Capture(this, 640/div, 480/div);
+  video = new Capture(this, 640/div, 480/div, Capture.list()[0]);
   opencv = new OpenCV(this, 640/div, 480/div);
   video.start();
   setDataType();
