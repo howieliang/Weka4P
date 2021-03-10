@@ -210,18 +210,36 @@ ${line}
 	
 	<target name="generate.javadoc" if="is.normal">
 	  	<!-- create the java reference of the Library -->
-		<javadoc bottom="Processing Library ${project.name} by ${author.name}. ${library.copyright}" 
-				classpath="${classpath.local.location}/core.jar;{project.bin}" 
-				destdir="${project.tmp}/${project.name}/reference" 
+		<javadoc
+				 
+				classpath="${classpath.local.location}/core-netlib.jar;${classpath.local.location}/core.jar;${classpath.local.location}/arpack_combined_all.jar;{project.bin};${classpath.local.location}/weka.jar;${classpath.local.location}/papaya.jar;${classpath.local.location}/mtj.jar" 
+				destdir="${project.tmp}/${project.name}/reference/doc" 
 				verbose="false" 
-				stylesheetfile="resources/stylesheet.css" 
+				
 				doctitle="Javadocs: ${project.name}" 
-				public="true" version="false" 
-				windowtitle="Javadocs: ${project.name}">
+				public="true" 
+				
+				windowtitle="Javadocs: ${project.name}"
+				
+				
+				nodeprecated="false"
+        nodeprecatedlist="false"
+        noindex="false"
+        nonavbar="false"
+        notree="false"
+        packagenames="Weka4P"
+        source="15"
+        sourcepath="src"
+        splitindex="true"
+        use="true"
+        version="true"
+				
+				
+				>
  			
  			<link href="${javadoc.java.href}" />
 			<link href="${javadoc.processing.href}" />
-			<taglet name="ExampleTaglet" path="resources/code" />
+			<!-- <taglet name="ExampleTaglet" path="resources/code" /> -->
  			<fileset dir="${project.tmp}/${project.name}/src" defaultexcludes="yes">
 			
 				<include name="**/*"/>
@@ -401,4 +419,3 @@ ${line}
 	</target>
 	
 </project>
-
