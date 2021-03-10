@@ -90,6 +90,12 @@ void mouseDragged() {
 
 void keyPressed() {
   if (key == 'T' || key == 't') {
+
+    if(csvData.getRowCount() < 1){
+      println("No csvData data");
+      return;
+    }
+
     b_saveCSV = true;
   }
   if (key == ' ') {
