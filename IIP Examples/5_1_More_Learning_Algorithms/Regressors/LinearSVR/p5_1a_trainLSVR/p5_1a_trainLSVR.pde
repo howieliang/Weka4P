@@ -10,7 +10,7 @@ void setup() {
   size(500, 500);             //set a canvas
   wp = new Weka4P(this);
   wp.loadTrainARFF("mouseTrainNum.arff"); //load a ARFF dataset
-  wp.trainLinearSVR(0.1);             //train a SV classifier (epsilon=0.1)
+  wp.trainLinearSVR(0.1);             //train a LSVR classifier (epsilon=0.1)
   wp.setModelDrawing(2);         //set the model visualization (for 2D features) with unit = 2
   wp.evaluateTrainSet(5, true, true);  //5-fold cross validation (fold=5, isRegression=true, showEvalDetails=true)
   wp.saveModel("LSVR.model"); //save the model
