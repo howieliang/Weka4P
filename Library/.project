@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>processing-library-template</name>
+	<name>Weka for Processing (Weka4P)</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1608803772857</id>
+			<id>0</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
