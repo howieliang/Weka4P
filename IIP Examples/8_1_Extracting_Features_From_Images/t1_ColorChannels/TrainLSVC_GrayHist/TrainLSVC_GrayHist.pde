@@ -57,7 +57,7 @@ void setDataType() {
 void setup() {
   size(500, 500);
   wp = new Weka4P(this);
-  video = new Capture(this, 640/div, 480/div);
+  video = new Capture(this, 640/div, 480/div, Capture.list()[0]);
   opencv = new OpenCV(this, 640/div, 480/div);
   video.start();
   wp.loadTrainARFF("GrayHistTrain.arff"); //load a ARFF dataset

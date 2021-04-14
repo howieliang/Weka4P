@@ -20,7 +20,7 @@ ArrayList<Contour> contours;
 
 void setup() {
   size(960, 480,P2D);
-  video = new Capture(this, 640/div, 480/div);
+  video = new Capture(this, 640/div, 480/div, Capture.list()[0]);
   opencv = new OpenCV(this, 640/div, 480/div);
   dst = new PImage(640/div, 480/div);
   diff = new PImage(640/div, 480/div);

@@ -2,11 +2,11 @@
 <classpath>
 	<classpathentry kind="src" output="bin" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="output" path="resources/code"/>
 	<classpathentry exported="true" kind="lib" path="lib/core.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/weka.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/mtj.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/arpack_combined_all.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/papaya.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/core-netlib.jar"/>
+	<classpathentry kind="output" path="resources/code"/>
 </classpath>
