@@ -4,7 +4,7 @@
 //  Author:     Rong-Hao Liang <r.liang@tue.nl>
 //  Edited by:  Wesley Hartogs <dev@wesleyhartogs.nl>
 //
-//  Version: 1.0.0 (17 03 2021)
+//  Version: 1.0.1 (15 04 2021)
 //
 //  Manual:
 //  Drag the .arff file into this sketch window or
@@ -37,7 +37,7 @@ void draw() {
   wp.drawGridSearchModels(0, 0, width, height);        // Draw the model visualization (for 2D features)
 
   if (!showModelOnly)
-    wp.drawGridSearchModels(0, 0, width, height);      // Draw the statistics
+    wp.drawGridSearchResults(0, 0, width, height);      // Draw the statistics
 }
 
 /* Switches showModelOnly Boolean on ENTER */
