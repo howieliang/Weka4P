@@ -160,12 +160,13 @@ public class Weka4P implements PConstants {
 	}
 
 	/**
-	 * return the version of the Library.
+	 * Print the version of the Library.
 	 * 
-	 * @return String Version
+	 * 
 	 */
-	public static String version() {
-		return VERSION;
+	public void printVersion() {
+		PApplet.println("Weka for Processing");
+		PApplet.println("Version: " + VERSION);
 	}
 
 
