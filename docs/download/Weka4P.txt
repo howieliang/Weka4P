@@ -8,7 +8,7 @@ name = (Weka4P) Weka Machine Learning for Processing
 authors = [Rong-Hao Liang](r.liang@tue.nl), [Wesley Hartogs](https://wesleyhartogs.nl), [Janet Huang](Y.C.Huang@tue.nl)
 
 # A web page for your Library, NOT a direct link to where to download it.
-url = http://yourlibraryname.com
+url = https://ronghaoliang.page/Weka4P/
 
 # The category (or categories) of your Library, must be from the following list:
 #   "3D"            "Animation"     "Compilations"      "Data"          
@@ -31,7 +31,7 @@ sentence = Implementation of the Open Source Weka Machine Learning Java library 
 # 'sentence' always will be prepended, so you should start by writing the
 # second sentence here. If your Library only works on certain operating systems,
 # mention it here.
-paragraph = Weka4P (Weka Machine Learning for Processing) 
+paragraph = Train and load models to bring Machine Learning (for example: classification and regression) to your Processing projects. 
 
 # Links in the 'sentence' and 'paragraph' attributes can be inserted using the
 # same syntax as for authors. 
@@ -41,11 +41,11 @@ paragraph = Weka4P (Weka Machine Learning for Processing)
 # compare different versions of the same Library, and check if an update is 
 # available. You should think of it as a counter, counting the total number of 
 # releases you've had.
-version = 0  # This must be parsable as an int
+version = 1  # This must be parsable as an int
 
 # The version as the user will see it. If blank, the version attribute will be 
 # used here. This should be a single word, with no spaces.
-prettyVersion = 0.0.13  # This is treated as a String
+prettyVersion = 0.0.15  # This is treated as a String
 
 # The min and max revision of Processing compatible with your Library.
 # Note that these fields use the revision and not the version of Processing, 
