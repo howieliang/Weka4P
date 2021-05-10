@@ -2,7 +2,7 @@
 # UTF-8 supported.
 
 # The name of your Library as you want it formatted.
-name = Weka Machine Learning for Processing
+name = (Weka4P) Weka Machine Learning for Processing
 
 # List of authors. Links can be provided using the syntax [author name](url).
 authors = [Rong-Hao Liang](r.liang@tue.nl), [Wesley Hartogs](https://wesleyhartogs.nl), [Janet Huang](Y.C.Huang@tue.nl)
