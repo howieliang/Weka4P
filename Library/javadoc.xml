@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+
 <project default="javadoc">
+	
+	<property name="processing.core.location" value="D:/Users/Wesley/Documents/processing-3.5.4/core/library/core.jar" />
+	
     <target name="javadoc">
         <javadoc 
         access="public" 
         author="true" 
-        classpath="lib/core-netlib.jar;lib/core.jar;lib/arpack_combined_all.jar;bin;lib/weka.jar;lib/papaya.jar;lib/mtj.jar" 
+        classpath="lib/core-netlib.jar;lib/core.jar;lib/arpack_combined_all.jar;bin;lib/weka.jar;lib/papaya.jar;lib/mtj.jar;${processing.core.location}" 
         destdir="doc"
         nodeprecated="false"
         nodeprecatedlist="false"
@@ -17,6 +23,8 @@
         splitindex="true"
         use="true"
         version="true"
+        	
+        	additionalparam="-Xdoclint:none"
         />
     </target>
 </project>
