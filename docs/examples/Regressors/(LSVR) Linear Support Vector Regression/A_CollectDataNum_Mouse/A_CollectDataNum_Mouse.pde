@@ -16,6 +16,8 @@
 //  You can find these files in the data folder
 //  in your sketch folder.
 //  Sketch -> Show Sketch Folder (ctrl/cmd + K)
+//
+//  You need this .arff file in the next examples.
 // 
 //  To reset the data press spacebar.
 //

@@ -14,7 +14,7 @@ By default the following locations are used for your sketchbook folder:
   * For Mac users, the sketchbook folder is located inside `~/Documents/Processing` 
   * For Windows users, the sketchbook folder is located inside `My Documents/Processing`
 
-Download (Weka4P) Weka Machine Learning for Processing from http://yourlibraryname.com
+Download (Weka4P) Weka Machine Learning for Processing from https://ronghaoliang.page/Weka4P/
 
 Unzip and copy the contributed Library's folder into the `libraries` folder in the Processing sketchbook. You will need to create this `libraries` folder if it does not exist.
 
