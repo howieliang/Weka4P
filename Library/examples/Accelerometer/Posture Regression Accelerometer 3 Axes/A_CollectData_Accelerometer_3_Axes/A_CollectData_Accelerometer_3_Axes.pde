@@ -1,5 +1,5 @@
 //*********************************************
-//  A_CollectData_Accelerometer_3_Axes : Collects data from a accelerometer with Arduino with nominal labels
+//  A_CollectData_Accelerometer_3_Axes : Collects data from a accelerometer with Arduino with numeric labels
 //
 //  Author: Rong-Hao Liang <r.liang@tue.nl>
 //  Edited by: Wesley Hartogs <dev@wesleyhartogs.nl>
@@ -44,7 +44,7 @@ Table csvData;                                                            // Mai
 boolean b_saveCSV = false;                                                // Boolean to initiate saving
 String dataSetName = "accData";                                           // Name fo the dataset file
 String[] attrNames = new String[]{"x", "y", "z", "label"};                // Names of the headers
-boolean[] attrIsNominal = new boolean[]{false, false, false, true};       // Boolean array to address if the values are Nominal or not
+boolean[] attrIsNominal = new boolean[]{false, false, false, false};       // Boolean array to address if the values are Nominal or not
 int labelIndex = 0;                                                       // Current label index                              
 
 void setup() {
@@ -81,7 +81,7 @@ void draw() {
       textSize(pointSize);                                                     // Set size of text even
       textAlign(CENTER, CENTER);                                               // Align Text vertical and horizontal in center
       fill(0);                                                                 // Make text black
-      text(getCharFromInteger(labelIndex), i*pointSize, rawData[n][i]);        // Display the label
+      text(labelIndex, i*pointSize, rawData[n][i]);                            // Display the label
     }
   }
   
@@ -92,7 +92,7 @@ void draw() {
         newRow.setFloat("x", rawData[0][n]);
         newRow.setFloat("y", rawData[1][n]);
         newRow.setFloat("z", rawData[2][n]);
-        newRow.setString("label", getCharFromInteger(labelIndex));
+        newRow.setFloat("label", labelIndex);
       }
       saveCSV(dataSetName, csvData);                                           // Save data as CSV to data folder
       saveARFF(dataSetName, csvData);                                          // Save data as ARFF to data folder

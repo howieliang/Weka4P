@@ -1,3 +1,19 @@
+//*********************************************
+//  MPU6050_Rx_Tx_100Hz : Reads MPU Accelerometer data and sends it Processing via Serial
+//
+//  Author: Rong-Hao Liang <r.liang@tue.nl>
+//  Edited by: Wesley Hartogs <dev@wesleyhartogs.nl>
+//
+//  Version: 1.0.0 (02 05 2021)
+//
+//  Manual:
+//  Upload the sketch and test it via the serial monitor.
+//  Make sure that the baud rate is set to 115200 at the bottom of the window
+//
+//  Close the Serial Monitor if you see the data flowing
+//
+//*********************************************
+
 #include "MPU6050.h"
 int sampleRate = 100; //samples per second
 int sampleInterval = 1000000/sampleRate; //Inverse of SampleRate
@@ -44,11 +60,11 @@ void sendDataToProcessing(char symbol, int data) {
 void getDataFromProcessing() {
   while (Serial.available()) {
     char inChar = (char)Serial.read();
-    if (inChar == 'a') { //when an 'a' charactor is received.
+    if (inChar == 'a') { //when an 'a' character is received.
       ledOn = 1;
       digitalWrite(LED_BUILTIN, ledOn); //turn on the built in LED on Arduino Uno
     }
-    if (inChar == 'b') { //when an 'b' charactor is received.
+    if (inChar == 'b') { //when an 'b' character is received.
       ledOn = 0;
       digitalWrite(LED_BUILTIN, 0); //turn on the built in LED on Arduino Uno
     }
