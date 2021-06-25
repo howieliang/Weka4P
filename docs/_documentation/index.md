@@ -11,11 +11,11 @@ permalink: /documentation
   - What is Weka?
   - What is Processing?
   - Why did we port Weka to Procesing?
-- **Getting Started** /
+- **[Getting Started](./getting-started)🔗**
   - Installing Processing
   - Installing Weka4P
   - Hello World
-- **The Basics**
+- **[The Basics](./basics)🔗**
   - Classification
     - What is Classification?
     - Classifiers
@@ -29,7 +29,7 @@ permalink: /documentation
       - (LSVR) Linear Support Vector Regression
       - (LReg) Multilpe Linear Neigbors Regression
       - (KSVR) Kernel Support Vector Regression
-- **Sensors**
+- **[Sensors](./sensors)🔗**
   - Accelerometer
   - Camera
   - Microphone
