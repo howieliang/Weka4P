@@ -12,7 +12,7 @@ Implementation library of the Open Source Weka Machine Learning Java library for
 
 
 ## Download
-Download (Weka4P) Weka Machine Learning for Processing version 0.0.15 in [.zip format](./download/Weka4P-2.zip). Last update, 06/25/2021.
+Download (Weka4P) Weka Machine Learning for Processing version 0.0.16 in [.zip format](./download/Weka4P-2.zip). Last update, 06/25/2021.
 
 ## Installation
 Unzip and put the extracted Weka4P folder into the libraries folder of your Processing sketches. Reference and examples are included in the Weka4P folder.
