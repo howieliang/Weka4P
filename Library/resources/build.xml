@@ -113,7 +113,7 @@ ${line}
 		</antcall>
 		<antcall target="generate.distribution" />
 		<antcall target="generate.install.library" />
-		<antcall target="generate.web" />
+		<!-- <antcall target="generate.web" /> -->
 		<antcall target="generate.zip" />
 		<delete dir="${project.tmp}" />
 	</target>
