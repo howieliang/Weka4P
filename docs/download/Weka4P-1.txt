@@ -8,7 +8,7 @@ name = (Weka4P) Weka Machine Learning for Processing
 authors = [Rong-Hao Liang](r.liang@tue.nl), [Wesley Hartogs](https://wesleyhartogs.nl), [Janet Huang](Y.C.Huang@tue.nl)
 
 # A web page for your Library, NOT a direct link to where to download it.
-url = https://ronghaoliang.page/Weka4P/
+url = https://howieliang.github.io/Weka4P/
 
 # The category (or categories) of your Library, must be from the following list:
 #   "3D"            "Animation"     "Compilations"      "Data"          
